@@ -22,11 +22,17 @@ body {
 .header__title {
     margin: 0;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .header__edit,
 .header__title {
     margin-right: auto;
+}
+
+.chats {
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .chat {
@@ -68,7 +74,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 10px 25px;
     padding-bottom: 0;
     background-color: #f7f7f7;
     bottom: 0;
@@ -82,6 +88,10 @@ body {
     color: #c1c1c1;
 }
 
+.footer__icon--selected {
+    color: #523638;
+}
+
 .footer__text {
     margin-top: 5px;
     font-size: 10px;
@@ -92,7 +102,7 @@ body {
     height: 60px;
     background-color: #ffe84d;
     position: fixed;
-    bottom: 100px;
+    bottom: 80px;
     right: 20px;
     border-radius: 50%;
     display: flex;
